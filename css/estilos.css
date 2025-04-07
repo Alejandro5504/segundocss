@@ -1,0 +1,82 @@
+body {
+  font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #818181;
+  -webkit-user-select: none;
+  /* Compatibilidad con WebKit */
+  user-select: none;
+  /* Para navegadores modernos */
+}
+
+h1,h3 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: rgb(37, 133, 82);
+  color: rgb(86, 27, 196);
+  text-align: center;
+}
+
+cite {
+  color: rgb(128, 128, 128);
+}
+
+a {
+  text-decoration: none;
+  color: DarkBlue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2:hover {
+
+filter:invert(100%);
+}
+
+
+button {
+  font-variant: small-caps;
+  cursor: pointer
+}
+
+.centro {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+  .imagenmono {
+
+    width: 200px;
+    height: 200px;
+    float:left;
+    margin-left: 10px;
+    
+
+  }
+
+
+  .color{
+
+color: bisque;
+
+
+  }
+
+  table{
+
+border: double;
+
+  }
+
+  td {
+
+border: double;
+
+  }
+
